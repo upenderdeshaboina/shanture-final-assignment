@@ -1,0 +1,90 @@
+.main-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.main-logo {
+  width: 250px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #7076FC;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.li {
+  padding: 2px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  midth: 100%;
+}
+
+.checkbox {
+  margin-right: 10px;
+  margin-left: 40px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.todo-description {
+  flex-grow: 1;
+  align-self: center;
+  margin-right: 150px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: red;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.todo{
+  display: flex;
+  justify-content: space-between;
+}
+.download-btn{
+  align-self: flex-end;
+  margin-right: 10px;
+  background-color: #FF5733;
+  color: #fff;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 2px;
+}
